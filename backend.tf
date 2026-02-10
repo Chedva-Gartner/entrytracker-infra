@@ -6,4 +6,8 @@ terraform {
     dynamodb_table = "tf-locks"
     encrypt        = true
   }
+  provider "aws" {
+    region = "ap-south-1"
 }
+}
+
