@@ -7,6 +7,8 @@ terraform {
     encrypt        = true
     kms_key_id     = "arn:aws:kms:REGION:ACCOUNT:key/XXXX"
   }
+}
+
 
 
 
