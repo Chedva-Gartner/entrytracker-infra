@@ -5,9 +5,9 @@ terraform {
     region         = "eu-west-1"
     dynamodb_table = "tf-locks"
     encrypt        = true
-    kms_key_id     = "arn:aws:kms:REGION:ACCOUNT:key/XXXX"
   }
 }
+
 
 
 
